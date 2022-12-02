@@ -16,21 +16,21 @@ To get a better understanding of the logistic map - $X_{n+1} = R x_n(1-x_n)$, th
 
 | <img src="./Images/3.3.png" /> |
 |:------------------------------:|
-| **$R = 3.3,$ $x_0 = 0.2$**     |
+| $R = 3.3,$ $x_0 = 0.2$         |
 <br/>
 
 This image shows a bifurcation that arises when the parameter R is changed. The period of this system changes again when R is further increased to R = 3.5. Once again a bifurcation happens as the period changes from 2 to 4. This is illustrated in the image below:
 
 | <img src="./Images/3_5.png" /> |
 |:------------------------------:|
-| **$R = 3.5,$ $x_0 = 0.2$**     |
+| $R = 3.5,$ $x_0 = 0.2$         |
 <br/>
 
  Lastly, if the value of R is further increased -  chaotic behavior begins to be apparent. When R = 3.6 two chaotic or "strange" attractors can be seen by increasing the iterations. These chaotic attractors are displayed in the following image:
 
 | <img src="./Images/3_6.png" /> |
 |:------------------------------:|
-| **$R = 3.6,$ $x_0 = 0.2$**     |
+| $R = 3.6,$ $x_0 = 0.2$         |
 <br/>
 
 While the bands of similar patters centered around what seems to be two values seems to be apparent, it can be further determined that this system is indeed chaotic for R = 3.6, by checking the difference in $x_n$ values for different initial conditions. To display the effect that a different initial conditions has on the system, we will check the average difference in the values of of $x_n$ for the case where $x_0 = 0.2$ and $\hat{x_0} = 0.200001$. Where the average absolute difference was determined by the equation: <br/>
@@ -55,7 +55,7 @@ Lastly, when fixing the value of R to 2.5, correlating to a system that converge
 
 | <img src="./Images/diff0_4.png" />               |
 |:------------------------------------------------:|
-| **$R = 2.5,$ $x_0 = 0.2,$ $\hat{x_0} = 0.4$**    |
+| $R = 2.5,$ $x_0 = 0.2,$ $\hat{x_0} = 0.4$        |
 <br/>
 
 ## Phase Plots:
@@ -63,17 +63,17 @@ Important to noticing trends of dynamical systems, the following phase plots are
  
 | <img src="./Images/state3.png" />                |
 |:------------------------------------------------:|
-| **$x_n$ vs. $n$**                                |
+| $x_n$ vs. $n$                                    |
 <br/>
 
 | <img src="./Images/state2.png" />                |
 |:------------------------------------------------:|
-| **$x_{n+1}$ vs. $x_{n}$**                        |
+|   $x_{n+1}$ vs. $x_{n}$                          |
 <br/>
 
 | <img src="./Images/state1.png" />                |
 |:------------------------------------------------:|
-| **$x_{n+2}$ vs. $x_{n}$**                        |
+| $x_{n+2}$ vs. $x_{n}$                            |
 <br/>
 
  When $R > 4$, $x_n$ goes off to negative infinity. The state variable $x_n$ represents the ratio of foxes to rabbits, where at $R > 4$, the system becomes unstable. This correlates to number of foxes growing to a point where there are too many foxes and they eat all the rabbits, which in turn gives them no food and they end up dying off as well. This limit tends to infinity as the rabbits all die out first giving some number of foxes over a number approaching zero - which tends towards a ratio of infinity.
